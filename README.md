@@ -5,6 +5,8 @@
 [![License](https://img.shields.io/cocoapods/l/CBCompare.svg?style=flat)](http://cocoapods.org/pods/CBCompare)
 [![Platform](https://img.shields.io/cocoapods/p/CBCompare.svg?style=flat)](http://cocoapods.org/pods/CBCompare)
 
+![Alt text](/blob/screenshots/demo.gif?raw=true "Demo")
+
 ## Usage
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.

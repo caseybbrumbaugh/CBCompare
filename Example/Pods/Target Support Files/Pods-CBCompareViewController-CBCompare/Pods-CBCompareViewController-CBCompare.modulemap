@@ -1,0 +1,6 @@
+framework module CBCompare {
+  umbrella header "Pods-CBCompareViewController-CBCompare-umbrella.h"
+
+  export *
+  module * { export * }
+}

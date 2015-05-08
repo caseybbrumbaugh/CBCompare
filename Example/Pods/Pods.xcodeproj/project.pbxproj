@@ -1,0 +1,520 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		12603CDAE48F992F86F29334 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6B8B656258014A0EFF4DAC4 /* Foundation.framework */; };
+		2100F985E9707B7B65FA3DC4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6B8B656258014A0EFF4DAC4 /* Foundation.framework */; };
+		51873895D7251EED0A5F9484 /* CBCompareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9005B523771AE0054E58656 /* CBCompareViewController.swift */; };
+		C105F77392151C55AD9BFC1E /* Pods-CBCompareViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D13617DEDAC3826A29BB2C96 /* Pods-CBCompareViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D617BF8E7BF7E310BE5407AC /* Pods-CBCompareViewController-CBCompare-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E5A119D9E8F55A1C740FD15 /* Pods-CBCompareViewController-CBCompare-dummy.m */; };
+		DC2FBC99C06501D73E43878B /* Pods-CBCompareViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 74BBBA5022A58DA81EC06064 /* Pods-CBCompareViewController-dummy.m */; };
+		EE52F9CB8FF12208E815D4B1 /* Pods-CBCompareViewController-CBCompare-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 334BC37D59C8C2064EF8B8CD /* Pods-CBCompareViewController-CBCompare-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ADE43704D1C0ECD3196DB56F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC397EF007A5C52B91A420E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16AEF65A72B88D5461FA673E;
+			remoteInfo = "Pods-CBCompareViewController-CBCompare";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07E542F1A2F97C03F88503A1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17982B0AB06D63856F7E2547 /* Pods-CBCompareViewController-CBCompare-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CBCompareViewController-CBCompare-Private.xcconfig"; sourceTree = "<group>"; };
+		2E5A119D9E8F55A1C740FD15 /* Pods-CBCompareViewController-CBCompare-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CBCompareViewController-CBCompare-dummy.m"; sourceTree = "<group>"; };
+		334BC37D59C8C2064EF8B8CD /* Pods-CBCompareViewController-CBCompare-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CBCompareViewController-CBCompare-umbrella.h"; sourceTree = "<group>"; };
+		35D2D61BDBF6B48DFE2BFC2B /* Pods-CBCompareViewController-CBCompare-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CBCompareViewController-CBCompare-prefix.pch"; sourceTree = "<group>"; };
+		39627EB9D40A221850A803C3 /* Pods-CBCompareViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-CBCompareViewController.modulemap"; sourceTree = "<group>"; };
+		4287887DE7DC1C2E675F9917 /* Pods-CBCompareViewController-CBCompare.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-CBCompareViewController-CBCompare.modulemap"; sourceTree = "<group>"; };
+		4C191508043467B4A738482B /* Pods-CBCompareViewController-CBCompare.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CBCompareViewController-CBCompare.xcconfig"; sourceTree = "<group>"; };
+		5159F75EB3704335BBC20BC3 /* CBCompare.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CBCompare.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B69F577330DC46241DD9C63 /* Pods_CBCompareViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CBCompareViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		74BBBA5022A58DA81EC06064 /* Pods-CBCompareViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CBCompareViewController-dummy.m"; sourceTree = "<group>"; };
+		92B428DD2D5FA97D4FA55359 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A5FFC6ECF455E932E6A5B3BB /* Pods-CBCompareViewController-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CBCompareViewController-acknowledgements.plist"; sourceTree = "<group>"; };
+		A6B8B656258014A0EFF4DAC4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		B28B6D0FDAC617586A5A1D12 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C206A4FEDF10E619EEDA33D3 /* Pods-CBCompareViewController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CBCompareViewController.debug.xcconfig"; sourceTree = "<group>"; };
+		C9005B523771AE0054E58656 /* CBCompareViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CBCompareViewController.swift; sourceTree = "<group>"; };
+		CC9E3D192F07C4D34FCE3433 /* Pods-CBCompareViewController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CBCompareViewController.release.xcconfig"; sourceTree = "<group>"; };
+		CF1020C0C5B1BD691853DD96 /* Pods-CBCompareViewController-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CBCompareViewController-frameworks.sh"; sourceTree = "<group>"; };
+		D13617DEDAC3826A29BB2C96 /* Pods-CBCompareViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CBCompareViewController-umbrella.h"; sourceTree = "<group>"; };
+		D5A66DFC5175198E90EE556E /* Pods-CBCompareViewController-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CBCompareViewController-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EE2C11987DEC8640E8E47044 /* Pods-CBCompareViewController-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CBCompareViewController-resources.sh"; sourceTree = "<group>"; };
+		EEB77B0C5688A13DDF77FA93 /* Pods-CBCompareViewController-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CBCompareViewController-environment.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3E9F081DDF7049D392E38451 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12603CDAE48F992F86F29334 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1906B01B00747A2B9D93A20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2100F985E9707B7B65FA3DC4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05DEFC0E9B35933566C50A39 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C9005B523771AE0054E58656 /* CBCompareViewController.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		0C87A2001074C61AFCEA9F43 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B28B6D0FDAC617586A5A1D12 /* Info.plist */,
+				4287887DE7DC1C2E675F9917 /* Pods-CBCompareViewController-CBCompare.modulemap */,
+				4C191508043467B4A738482B /* Pods-CBCompareViewController-CBCompare.xcconfig */,
+				17982B0AB06D63856F7E2547 /* Pods-CBCompareViewController-CBCompare-Private.xcconfig */,
+				2E5A119D9E8F55A1C740FD15 /* Pods-CBCompareViewController-CBCompare-dummy.m */,
+				35D2D61BDBF6B48DFE2BFC2B /* Pods-CBCompareViewController-CBCompare-prefix.pch */,
+				334BC37D59C8C2064EF8B8CD /* Pods-CBCompareViewController-CBCompare-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Pods-CBCompareViewController-CBCompare";
+			sourceTree = "<group>";
+		};
+		52B9B1FB24662527C81D1308 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F33234CCE354307FF5D981FD /* Pods-CBCompareViewController */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		65B0B11BFD474F9D0D81295B /* CBCompare */ = {
+			isa = PBXGroup;
+			children = (
+				E9DC8F2E73A8DF2675E2EE8F /* Pod */,
+				0C87A2001074C61AFCEA9F43 /* Support Files */,
+			);
+			name = CBCompare;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		71D06AA3114923A9A6E67DA7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5159F75EB3704335BBC20BC3 /* CBCompare.framework */,
+				6B69F577330DC46241DD9C63 /* Pods_CBCompareViewController.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		911CAF3DC4276A4938DE47C2 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				A6B8B656258014A0EFF4DAC4 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C0108CBBE898DBE6BB9A755F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				911CAF3DC4276A4938DE47C2 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E9DC8F2E73A8DF2675E2EE8F /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				05DEFC0E9B35933566C50A39 /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		ED9AE99E3E8B1D2569AF4479 = {
+			isa = PBXGroup;
+			children = (
+				92B428DD2D5FA97D4FA55359 /* Podfile */,
+				F60EF4ACF5503E9470D6CD26 /* Development Pods */,
+				C0108CBBE898DBE6BB9A755F /* Frameworks */,
+				71D06AA3114923A9A6E67DA7 /* Products */,
+				52B9B1FB24662527C81D1308 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		F33234CCE354307FF5D981FD /* Pods-CBCompareViewController */ = {
+			isa = PBXGroup;
+			children = (
+				07E542F1A2F97C03F88503A1 /* Info.plist */,
+				39627EB9D40A221850A803C3 /* Pods-CBCompareViewController.modulemap */,
+				D5A66DFC5175198E90EE556E /* Pods-CBCompareViewController-acknowledgements.markdown */,
+				A5FFC6ECF455E932E6A5B3BB /* Pods-CBCompareViewController-acknowledgements.plist */,
+				74BBBA5022A58DA81EC06064 /* Pods-CBCompareViewController-dummy.m */,
+				EEB77B0C5688A13DDF77FA93 /* Pods-CBCompareViewController-environment.h */,
+				CF1020C0C5B1BD691853DD96 /* Pods-CBCompareViewController-frameworks.sh */,
+				EE2C11987DEC8640E8E47044 /* Pods-CBCompareViewController-resources.sh */,
+				D13617DEDAC3826A29BB2C96 /* Pods-CBCompareViewController-umbrella.h */,
+				C206A4FEDF10E619EEDA33D3 /* Pods-CBCompareViewController.debug.xcconfig */,
+				CC9E3D192F07C4D34FCE3433 /* Pods-CBCompareViewController.release.xcconfig */,
+			);
+			name = "Pods-CBCompareViewController";
+			path = "Target Support Files/Pods-CBCompareViewController";
+			sourceTree = "<group>";
+		};
+		F60EF4ACF5503E9470D6CD26 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				65B0B11BFD474F9D0D81295B /* CBCompare */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		CAF6B8705AD9C08B67161D3C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C105F77392151C55AD9BFC1E /* Pods-CBCompareViewController-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D19BF43336A02827AF06F5A6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE52F9CB8FF12208E815D4B1 /* Pods-CBCompareViewController-CBCompare-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		16AEF65A72B88D5461FA673E /* Pods-CBCompareViewController-CBCompare */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C58517C32D9ADDD25C88B3F2 /* Build configuration list for PBXNativeTarget "Pods-CBCompareViewController-CBCompare" */;
+			buildPhases = (
+				5BE14606993BD3A597A68BEB /* Sources */,
+				3E9F081DDF7049D392E38451 /* Frameworks */,
+				D19BF43336A02827AF06F5A6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-CBCompareViewController-CBCompare";
+			productName = "Pods-CBCompareViewController-CBCompare";
+			productReference = 5159F75EB3704335BBC20BC3 /* CBCompare.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		47F5D9AF9EFF5A57C6E0569B /* Pods-CBCompareViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A60AFAE56DEA9618B0839D1B /* Build configuration list for PBXNativeTarget "Pods-CBCompareViewController" */;
+			buildPhases = (
+				813E48DF934A456ECAC1781A /* Sources */,
+				E1906B01B00747A2B9D93A20 /* Frameworks */,
+				CAF6B8705AD9C08B67161D3C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1C01BCCE7EDE0D79C1B7F882 /* PBXTargetDependency */,
+			);
+			name = "Pods-CBCompareViewController";
+			productName = "Pods-CBCompareViewController";
+			productReference = 6B69F577330DC46241DD9C63 /* Pods_CBCompareViewController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC397EF007A5C52B91A420E0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+			};
+			buildConfigurationList = BE02E21881A488A61ECC787B /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = ED9AE99E3E8B1D2569AF4479;
+			productRefGroup = 71D06AA3114923A9A6E67DA7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				47F5D9AF9EFF5A57C6E0569B /* Pods-CBCompareViewController */,
+				16AEF65A72B88D5461FA673E /* Pods-CBCompareViewController-CBCompare */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5BE14606993BD3A597A68BEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51873895D7251EED0A5F9484 /* CBCompareViewController.swift in Sources */,
+				D617BF8E7BF7E310BE5407AC /* Pods-CBCompareViewController-CBCompare-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		813E48DF934A456ECAC1781A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC2FBC99C06501D73E43878B /* Pods-CBCompareViewController-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1C01BCCE7EDE0D79C1B7F882 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-CBCompareViewController-CBCompare";
+			target = 16AEF65A72B88D5461FA673E /* Pods-CBCompareViewController-CBCompare */;
+			targetProxy = ADE43704D1C0ECD3196DB56F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		19730EC8EC880A56F27F8F47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC9E3D192F07C4D34FCE3433 /* Pods-CBCompareViewController.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CBCompareViewController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-CBCompareViewController/Pods-CBCompareViewController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_CBCompareViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3A16AEAFF3BA7D001F91E7FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4CA63580EB1DC9A0A7908DF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C206A4FEDF10E619EEDA33D3 /* Pods-CBCompareViewController.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CBCompareViewController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-CBCompareViewController/Pods-CBCompareViewController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_CBCompareViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7774E74A531CB9704F2D4E88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17982B0AB06D63856F7E2547 /* Pods-CBCompareViewController-CBCompare-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-CBCompareViewController-CBCompare/Pods-CBCompareViewController-CBCompare-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-CBCompareViewController-CBCompare/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-CBCompareViewController-CBCompare/Pods-CBCompareViewController-CBCompare.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = CBCompare;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A70E691E8EAD95629FA7F37D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C911552D09C75883B6D52CA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17982B0AB06D63856F7E2547 /* Pods-CBCompareViewController-CBCompare-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-CBCompareViewController-CBCompare/Pods-CBCompareViewController-CBCompare-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-CBCompareViewController-CBCompare/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-CBCompareViewController-CBCompare/Pods-CBCompareViewController-CBCompare.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = CBCompare;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A60AFAE56DEA9618B0839D1B /* Build configuration list for PBXNativeTarget "Pods-CBCompareViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CA63580EB1DC9A0A7908DF8 /* Debug */,
+				19730EC8EC880A56F27F8F47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE02E21881A488A61ECC787B /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A70E691E8EAD95629FA7F37D /* Debug */,
+				3A16AEAFF3BA7D001F91E7FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C58517C32D9ADDD25C88B3F2 /* Build configuration list for PBXNativeTarget "Pods-CBCompareViewController-CBCompare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7774E74A531CB9704F2D4E88 /* Debug */,
+				C911552D09C75883B6D52CA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC397EF007A5C52B91A420E0 /* Project object */;
+}

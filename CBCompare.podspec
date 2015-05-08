@@ -12,9 +12,9 @@ s.name = 'CBCompare'
 s.version = '0.1.0'
 s.license = 'MIT'
 s.summary = 'A swift view controller to compare two views of content.'
-s.homepage = 'https://github.com/caseybbrumbaugh/CBCompareViewController'
+s.homepage = 'https://github.com/caseybbrumbaugh/CBCompare'
 s.authors = { "Casey Brumbaugh" => "caseybbrumbaugh@gmail.com" }
-s.source = { :git => "https://github.com/caseybbrumbaugh/CBCompareViewController.git", :tag => s.version.to_s }
+s.source = { :git => "https://github.com/caseybbrumbaugh/CBCompare.git", :tag => s.version.to_s }
 
 s.ios.deployment_target = '8.0'
 
